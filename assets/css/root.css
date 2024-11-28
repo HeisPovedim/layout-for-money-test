@@ -1,0 +1,91 @@
+/**********
+ * IMPORT *
+ **********/
+
+@import url("/assets/css/reset.css");
+@import url("/assets/css/fonts.css");
+
+/*********
+ * OTHER *
+ *********/
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+:root {
+  --black: #000;
+  --background: #fbf4df;
+  --black-cover: #161c2d;
+  --gold: #f8d046;
+  --gray: #eeeeee;
+  --dark-blue: #13355b;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+  font-family: Gotham Pro, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Noto Color Emoji;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--black);
+  text-align: left;
+  background-color: var(--background);
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1281px;
+  padding: 0 10px;
+}
